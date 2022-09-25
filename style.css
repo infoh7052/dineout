@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 30px;
+}
+
+.dropdown {
+  border: 1px solid rgb(175, 163, 163);
+  border-radius: 4px;
+  width: 131px;
+  line-height: 10px;
+  padding: 4px 5px;
+  margin-left: 5px;
+}
+
+.dropdown .fa-location-dot {
+  padding: 2px;
+  color: rgb(175, 163, 163);
+  font-size: 15px;
+}
+
+.dropdown label {
+  padding-left: 5px;
+  color: rgb(175, 163, 163);
+  font-size: 15px;
+}
+
+.dropdown .fa-caret-down {
+  float: right;
+  color: rgb(175, 163, 163);
+}
+
+.navbar-nav {
+  margin-left: 20px;
+}
+
+.navbar-nav li a {
+  font-size: 15px;
+}
+
+.login-button {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #ff645a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-button:hover {
+  background-color: #e34034;
+}
+
+section {
+  background-image: url(./img/oldherobannerwebfinal_bau.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+.content h1 {
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.content h1 span {
+  color: rgb(230, 98, 22);
+}
+
+.banner-search {
+  width: 90%;
+  box-shadow: 2px 4px 5px 0 rgb(204 199 198 / 40%);
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 0 1rem 0 1.5rem;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.banner-search span {
+  margin-left: 3.2px;
+  height: 22px;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.banner-search input {
+  width: 100%;
+  margin: 0 2rem 0 1rem;
+  font-size: 1.3rem;
+  padding: 0 0.5rem;
+  height: 30px;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+}
+
+.banner-search button {
+  background: #ff645a;
+  color: #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 45px;
+  padding-right: 45px;
+
+  font-size: 17px;
+  font-weight: 800;
+  box-shadow: 0 2px 5px 0 rgb(255 88 84 / 30%);
+  border-radius: 0.4rem;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  font-family: inherit;
+  line-height: inherit;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+}
+
+
+.offers-container {
+    height: 250px;
+    background-color: #F3F3F3;
+}
+
+.offers-content {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+}
+
+.offers-content h1 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.box-container {
+    height: 250px;
+    display: flex;
+}
+
+#boxes {
+    padding: 5px;
+}
+
+#boxes img {
+    margin: 1px;
+    height: 130px;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main-res-near {
+  width: 100%;
+  height: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content-near {
+  width: 100%;
+}
+
+.content-near h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.content-near span {
+  font-size: 15px;
+  float: right;
+  text-transform: capitalize;
+  padding-right: 20px;
+  position: relative;
+  z-index: 4;
+  margin-top: -20px;
+}
+
+.connn {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content-near .container {
+  height: 230px;
+  margin: 8px;
+  display: block;
+  overflow: hidden;
+  border: 0;
+  min-height: 240px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+
+}
+
+.content-near .container img {
+  height: 120px;
+  display: block;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 3px solid #FF645A;
+
+}
+
+.content-near .container:hover {
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+}
+
+.content-near .container img:hover {
+  transition: transform 1s;
+  transform: scale(1.1);
+}
+
+
+.content-near .container h1 {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 800;
+  padding-left: 10px;
+}
+
+.content-near .container .content-details {
+  display: flex;
+}
+
+.content-near .container .content-details p {
+  padding-left: 10px;
+  font-size: 10px;
+
+}
+
+.content-near .container .content-details button {
+  margin-left: 50px;
+  background-color: #8cbb0f;
+  color: #F3F3F3;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.xyz {
+  display: flex;
+}
+
+.cc {
+  padding-left: 10px;
+  font-size: 13px;
+  color: green;
+}
+
+#featured-res {
+  margin-top: 40px !important;
+}
+
+.hr-line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.offer {
+  font-size: 12px;
+  color: green;
+  padding-left: 10px;
+}
+
+/* Responsive start */
+@media (max-width: 1024px) {
+  .banner-search {
+    width: 97%;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: -9px;
+}
+}
+
+@media (max-width: 768px) {
+.connn {
+  flex-direction: column;
+}
+
+.content-near .container .content-details button {
+  margin-left: 420px;
+}
+
+.content-near .container .content-details button {
+  margin-left: 29px;
+  margin-top: -5px;
+}
+
+#featured-res {
+  margin-top: 800px !important;
+}
+}
+
+@media (max-width: 425px) {
+  .banner-search {
+    width: 93%;
+  }
+  .offers-content {
+    padding-left: 10px;
+}
+.content-near span {
+  padding-right: 2px;
+  margin-top: -30px;
+}
+
+.content-near .container .content-details button {
+  margin-left: 29px;
+  margin-top: -5px;
+}
+
+#featured-res {
+  margin-top: 800px !important;
+}
+}
+/* Responsive end */

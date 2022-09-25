@@ -1,0 +1,136 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav style start */
+.logo {
+  height: 30px;
+}
+
+.dropdown {
+  border: 1px solid rgb(175, 163, 163);
+  border-radius: 4px;
+  width: 131px;
+  line-height: 10px;
+  padding: 4px 5px;
+  margin-left: 5px;
+}
+
+.dropdown .fa-location-dot {
+  padding: 2px;
+  color: rgb(175, 163, 163);
+  font-size: 15px;
+}
+
+.dropdown label {
+  padding-left: 5px;
+  color: rgb(175, 163, 163);
+  font-size: 15px;
+}
+
+.dropdown .fa-caret-down {
+  float: right;
+  color: rgb(175, 163, 163);
+}
+
+.navbar-nav {
+  margin-left: 20px;
+}
+
+.navbar-nav li a {
+  font-size: 15px;
+}
+
+.login-button {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #ff645a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-button:hover {
+  background-color: #e34034;
+}
+/* nav style end */
+
+/* help section style start */
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+section .container {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 70vh;
+  width: 80%;
+  margin-top: 70px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+section .container h2 {
+  color: #ff645a;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  text-align: center;
+  margin-left: 220px;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+section .container h2:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid #e34034;
+}
+
+section .container .btn {
+  background-color: #ff645a;
+  color: white;
+  text-align: center;
+}
+
+section .container .btn:hover {
+  background-color: #e34034;
+}
+/* help section style end */
+
+/* Responsive start */
+@media (max-width: 1024px) {
+  section .container h2 {
+    margin-left: 128px;
+  }
+}
+
+@media (max-width: 768px) {
+  section .container h2 {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  section .container h2 {
+    margin-left: -141px;
+    font-size: 16px;
+    padding-left: 78px;
+  }
+}
+
+@media (max-width: 375px) {
+  section .container h2 {
+    padding-left: 46px;
+  }
+}
+/* responsive end */
