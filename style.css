@@ -58,7 +58,7 @@
 }
 
 section {
-  background-image: url(./img/oldherobannerwebfinal_bau.png);
+  background-image: url(../img/oldherobannerwebfinal_bau.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -158,39 +158,38 @@ textarea {
   border: none;
 }
 
-
 .offers-container {
-    height: 250px;
-    background-color: #F3F3F3;
+  height: 250px;
+  background-color: #f3f3f3;
 }
 
 .offers-content {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 80px;
 }
 
 .offers-content h1 {
-    color: #000000;
-    font-size: 20px;
-    font-weight: 600;
-    padding-bottom: 8px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 8px;
 }
 
 .box-container {
-    height: 250px;
-    display: flex;
+  height: 250px;
+  display: flex;
 }
 
 #boxes {
-    padding: 5px;
+  padding: 5px;
 }
 
 #boxes img {
-    margin: 1px;
-    height: 130px;
-    display: block;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 1px;
+  height: 130px;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .main-res-near {
@@ -244,7 +243,6 @@ textarea {
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
-
 }
 
 .content-near .container img {
@@ -252,19 +250,17 @@ textarea {
   display: block;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  border-bottom: 3px solid #FF645A;
-
+  border-bottom: 3px solid #ff645a;
 }
 
 .content-near .container:hover {
-  box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
 }
 
 .content-near .container img:hover {
   transition: transform 1s;
   transform: scale(1.1);
 }
-
 
 .content-near .container h1 {
   margin-top: 10px;
@@ -280,13 +276,12 @@ textarea {
 .content-near .container .content-details p {
   padding-left: 10px;
   font-size: 10px;
-
 }
 
 .content-near .container .content-details button {
   margin-left: 50px;
   background-color: #8cbb0f;
-  color: #F3F3F3;
+  color: #f3f3f3;
   padding-right: 10px;
   padding-left: 10px;
   font-size: 17px;
@@ -322,6 +317,33 @@ svg:not(:root) {
   padding-left: 10px;
 }
 
+/* popup btn style start */
+.modal-content .help {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.modal-content main {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+.group-modal {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  margin-top: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 100px;
+  background-color: #ff645a !important;
+  border: none !important;
+}
+/* popup btn style end */
+
 /* Responsive start */
 @media (max-width: 1024px) {
   .banner-search {
@@ -330,26 +352,30 @@ svg:not(:root) {
   p {
     margin-top: 0;
     margin-bottom: -9px;
-}
+  }
 }
 
 @media (max-width: 768px) {
-.connn {
-  flex-direction: column;
-}
+  .connn {
+    flex-direction: column;
+  }
 
-.content-near .container .content-details button {
-  margin-left: 420px;
-}
+  .content-near .container .content-details button {
+    margin-left: 420px;
+  }
 
-.content-near .container .content-details button {
-  margin-left: 29px;
-  margin-top: -5px;
-}
+  .content-near .container .content-details button {
+    margin-left: 29px;
+    margin-top: -5px;
+  }
 
-#featured-res {
-  margin-top: 800px !important;
-}
+  #featured-res {
+    margin-top: 800px !important;
+  }
+/* popup  btn responsive */
+  .group-modal {
+    margin-top: 733px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -358,19 +384,23 @@ svg:not(:root) {
   }
   .offers-content {
     padding-left: 10px;
-}
-.content-near span {
-  padding-right: 2px;
-  margin-top: -30px;
-}
+  }
+  .content-near span {
+    padding-right: 2px;
+    margin-top: -30px;
+  }
 
-.content-near .container .content-details button {
-  margin-left: 29px;
-  margin-top: -5px;
-}
+  .content-near .container .content-details button {
+    margin-left: 29px;
+    margin-top: -5px;
+  }
 
-#featured-res {
-  margin-top: 800px !important;
-}
+  #featured-res {
+    margin-top: 800px !important;
+  }
+/* popup btn responsive */
+  .btn {
+    font-size: 11px;
+  }
 }
 /* Responsive end */
